@@ -1,0 +1,4 @@
+
+# Release gate audits / packed tarballs (pkgs/core)
+release/audit/
+*.tgz

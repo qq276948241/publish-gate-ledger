@@ -1,0 +1,337 @@
+{
+  "packages": [
+    {
+      "name": "@date-fns/constants",
+      "modules": [
+        "constants"
+      ]
+    },
+    {
+      "name": "@date-fns/core",
+      "modules": [
+        "constructFrom",
+        "constructNow",
+        "fromUnixTime",
+        "toDate",
+        "transpose"
+      ]
+    },
+    {
+      "name": "@date-fns/add",
+      "modules": [
+        "add",
+        "addBusinessDays",
+        "addDays",
+        "addHours",
+        "addISOWeekYears",
+        "addMilliseconds",
+        "addMinutes",
+        "addMonths",
+        "addQuarters",
+        "addSeconds",
+        "addWeeks",
+        "addYears",
+        "sub",
+        "subBusinessDays",
+        "subDays",
+        "subHours",
+        "subISOWeekYears",
+        "subMilliseconds",
+        "subMinutes",
+        "subMonths",
+        "subQuarters",
+        "subSeconds",
+        "subWeeks",
+        "subYears"
+      ]
+    },
+    {
+      "name": "@date-fns/difference",
+      "modules": [
+        "differenceInBusinessDays",
+        "differenceInCalendarDays",
+        "differenceInCalendarISOWeekYears",
+        "differenceInCalendarISOWeeks",
+        "differenceInCalendarMonths",
+        "differenceInCalendarQuarters",
+        "differenceInCalendarWeeks",
+        "differenceInCalendarYears",
+        "differenceInDays",
+        "differenceInHours",
+        "differenceInISOWeekYears",
+        "differenceInMilliseconds",
+        "differenceInMinutes",
+        "differenceInMonths",
+        "differenceInQuarters",
+        "differenceInSeconds",
+        "differenceInWeeks",
+        "differenceInYears"
+      ]
+    },
+    {
+      "name": "@date-fns/each",
+      "modules": [
+        "eachDayOfInterval",
+        "eachHourOfInterval",
+        "eachMinuteOfInterval",
+        "eachMonthOfInterval",
+        "eachQuarterOfInterval",
+        "eachWeekOfInterval",
+        "eachWeekendOfInterval",
+        "eachWeekendOfMonth",
+        "eachWeekendOfYear",
+        "eachYearOfInterval"
+      ]
+    },
+    {
+      "name": "@date-fns/start",
+      "modules": [
+        "startOfDay",
+        "startOfDecade",
+        "startOfHour",
+        "startOfISOWeek",
+        "startOfISOWeekYear",
+        "startOfMinute",
+        "startOfMonth",
+        "startOfQuarter",
+        "startOfSecond",
+        "startOfToday",
+        "startOfTomorrow",
+        "startOfWeek",
+        "startOfWeekYear",
+        "startOfYear",
+        "startOfYesterday"
+      ]
+    },
+    {
+      "name": "@date-fns/end",
+      "modules": [
+        "endOfDay",
+        "endOfDecade",
+        "endOfHour",
+        "endOfISOWeek",
+        "endOfISOWeekYear",
+        "endOfMinute",
+        "endOfMonth",
+        "endOfQuarter",
+        "endOfSecond",
+        "endOfToday",
+        "endOfTomorrow",
+        "endOfWeek",
+        "endOfYear",
+        "endOfYesterday",
+        "lastDayOfDecade",
+        "lastDayOfISOWeek",
+        "lastDayOfISOWeekYear",
+        "lastDayOfMonth",
+        "lastDayOfQuarter",
+        "lastDayOfWeek",
+        "lastDayOfYear"
+      ]
+    },
+    {
+      "name": "@date-fns/get",
+      "modules": [
+        "getDate",
+        "getDay",
+        "getDayOfYear",
+        "getDaysInMonth",
+        "getDaysInYear",
+        "getDecade",
+        "getDefaultOptions",
+        "getHours",
+        "getISODay",
+        "getISOWeek",
+        "getISOWeekYear",
+        "getISOWeeksInYear",
+        "getMilliseconds",
+        "getMinutes",
+        "getMonth",
+        "getOverlappingDaysInIntervals",
+        "getQuarter",
+        "getSeconds",
+        "getTime",
+        "getUnixTime",
+        "getWeek",
+        "getWeekOfMonth",
+        "getWeekYear",
+        "getWeeksInMonth",
+        "getYear"
+      ]
+    },
+    {
+      "name": "@date-fns/set",
+      "modules": [
+        "set",
+        "setDate",
+        "setDay",
+        "setDayOfYear",
+        "setDefaultOptions",
+        "setHours",
+        "setISODay",
+        "setISOWeek",
+        "setISOWeekYear",
+        "setMilliseconds",
+        "setMinutes",
+        "setMonth",
+        "setQuarter",
+        "setSeconds",
+        "setWeek",
+        "setWeekYear",
+        "setYear"
+      ]
+    },
+    {
+      "name": "@date-fns/is",
+      "modules": [
+        "isAfter",
+        "isBefore",
+        "isDate",
+        "isEqual",
+        "isExists",
+        "isFirstDayOfMonth",
+        "isFriday",
+        "isFuture",
+        "isLastDayOfMonth",
+        "isLeapYear",
+        "isMatch",
+        "isMonday",
+        "isPast",
+        "isSameDay",
+        "isSameHour",
+        "isSameISOWeek",
+        "isSameISOWeekYear",
+        "isSameMinute",
+        "isSameMonth",
+        "isSameQuarter",
+        "isSameSecond",
+        "isSameWeek",
+        "isSameYear",
+        "isSaturday",
+        "isSunday",
+        "isThisHour",
+        "isThisISOWeek",
+        "isThisMinute",
+        "isThisMonth",
+        "isThisQuarter",
+        "isThisSecond",
+        "isThisWeek",
+        "isThisYear",
+        "isThursday",
+        "isToday",
+        "isTomorrow",
+        "isTuesday",
+        "isValid",
+        "isWednesday",
+        "isWeekend",
+        "isWithinInterval",
+        "isYesterday",
+        "compareAsc",
+        "compareDesc"
+      ]
+    },
+    {
+      "name": "@date-fns/format",
+      "modules": [
+        "format",
+        "formatDistance",
+        "formatDistanceStrict",
+        "formatDistanceToNow",
+        "formatDistanceToNowStrict",
+        "formatDuration",
+        "formatISO",
+        "formatISO9075",
+        "formatISODuration",
+        "formatRFC3339",
+        "formatRFC7231",
+        "formatRelative",
+        "intlFormat",
+        "intlFormatDistance",
+        "lightFormat"
+      ]
+    },
+    {
+      "name": "@date-fns/parse",
+      "modules": [
+        "parse",
+        "parseISO",
+        "parseJSON"
+      ]
+    },
+    {
+      "name": "@date-fns/interval",
+      "modules": [
+        "areIntervalsOverlapping",
+        "clamp",
+        "closestIndexTo",
+        "closestTo",
+        "interval",
+        "intervalToDuration",
+        "max",
+        "min"
+      ]
+    },
+    {
+      "name": "@date-fns/convert",
+      "modules": [
+        "daysToWeeks",
+        "hoursToMilliseconds",
+        "hoursToMinutes",
+        "hoursToSeconds",
+        "milliseconds",
+        "millisecondsToHours",
+        "millisecondsToMinutes",
+        "millisecondsToSeconds",
+        "minutesToHours",
+        "minutesToMilliseconds",
+        "minutesToSeconds",
+        "monthsToQuarters",
+        "monthsToYears",
+        "quartersToMonths",
+        "quartersToYears",
+        "roundToNearestHours",
+        "roundToNearestMinutes",
+        "secondsToHours",
+        "secondsToMilliseconds",
+        "secondsToMinutes",
+        "weeksToDays",
+        "yearsToDays",
+        "yearsToMonths",
+        "yearsToQuarters"
+      ]
+    },
+    {
+      "name": "@date-fns/calendar",
+      "modules": [
+        "nextDay",
+        "nextFriday",
+        "nextMonday",
+        "nextSaturday",
+        "nextSunday",
+        "nextThursday",
+        "nextTuesday",
+        "nextWednesday",
+        "previousDay",
+        "previousFriday",
+        "previousMonday",
+        "previousSaturday",
+        "previousSunday",
+        "previousThursday",
+        "previousTuesday",
+        "previousWednesday"
+      ]
+    },
+    {
+      "name": "@date-fns/locale",
+      "modules": [
+        "locale"
+      ]
+    },
+    {
+      "name": "@date-fns/fp",
+      "modules": [
+        "fp"
+      ]
+    }
+  ]
+}
