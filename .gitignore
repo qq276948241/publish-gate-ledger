@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+.pnpm-store/
+npm-debug.log*
+# TypeScript
+.ts/
+# Dev Container
+/.devcontainer/state/
+# Dist
+dist/
+# Dev
+tmp
+.envrc
+docs.json
+.idea
+coverage
+/secrets
+# Secrets
+.env
+.env.*
+!.env.example
