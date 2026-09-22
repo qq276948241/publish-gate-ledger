@@ -1,0 +1,19 @@
+[tasks."build/split"]
+description = "Build both split layouts (coarse and fine)"
+run = "node src/cli.mjs build"
+
+[tasks."gate"]
+description = "Run deps, treeshake, types, artifacts and consumer gates"
+run = "node src/cli.mjs gate all"
+
+[tasks."verify"]
+description = "Build a layout and run the full release gate chain"
+run = "node src/cli.mjs verify"
+
+[tasks."release"]
+description = "Build, gate and record a release (add --dry-run to rehearse)"
+run = "node src/cli.mjs release"
+
+[tasks."selftest"]
+description = "Inject defects and verify every gate catches them"
+run = "node src/cli.mjs selftest"

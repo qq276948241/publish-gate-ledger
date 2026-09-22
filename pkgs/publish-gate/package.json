@@ -1,0 +1,29 @@
+{
+  "name": "@date-fns/publish-gate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Split-build, tree-shaking, type-declaration and release gates for @date-fns packages",
+  "bin": {
+    "publish-gate": "./src/cli.mjs"
+  },
+  "scripts": {
+    "build:split": "node src/cli.mjs build",
+    "gate:deps": "node src/cli.mjs gate deps",
+    "gate:treeshake": "node src/cli.mjs gate treeshake",
+    "gate:types": "node src/cli.mjs gate types",
+    "gate:artifacts": "node src/cli.mjs gate artifacts",
+    "gate:all": "node src/cli.mjs gate all",
+    "release": "node src/cli.mjs release",
+    "report": "node src/cli.mjs report",
+    "verify": "node src/cli.mjs verify",
+    "selftest": "node src/cli.mjs selftest"
+  },
+  "dependencies": {
+    "rolldown": "^1.1.0",
+    "zx": "^8.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "latest"
+  }
+}

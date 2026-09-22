@@ -1,0 +1,31 @@
+{
+  "id": "fine",
+  "description": "Fine split: one package per functional area, core shared package, aggregator.",
+  "packages": {
+    "@date-fns/tz-offset": {
+      "dir": "date-fns-tz-offset",
+      "modules": ["tzOffset"]
+    },
+    "@date-fns/tz-name": {
+      "dir": "date-fns-tz-name",
+      "modules": ["tzName"]
+    },
+    "@date-fns/tz-core": {
+      "dir": "date-fns-tz-core",
+      "modules": ["constants", "date", "date/mini"]
+    },
+    "@date-fns/tz-scan": {
+      "dir": "date-fns-tz-scan",
+      "modules": ["tzScan"]
+    },
+    "@date-fns/tz-factory": {
+      "dir": "date-fns-tz-factory",
+      "modules": ["tz"]
+    },
+    "@date-fns/tz": {
+      "dir": "date-fns-tz",
+      "aggregator": true,
+      "modules": ["constants", "date", "date/mini", "tzName", "tzOffset", "tzScan", "tz"]
+    }
+  }
+}

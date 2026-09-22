@@ -1,0 +1,19 @@
+{
+  "id": "coarse",
+  "description": "Coarse split: primitives bundle, factory bundle, aggregator.",
+  "packages": {
+    "@date-fns/tz-primitives": {
+      "dir": "date-fns-tz-primitives",
+      "modules": ["constants", "date", "date/mini", "tzName", "tzOffset", "tzScan"]
+    },
+    "@date-fns/tz-factory": {
+      "dir": "date-fns-tz-factory",
+      "modules": ["tz"]
+    },
+    "@date-fns/tz": {
+      "dir": "date-fns-tz",
+      "aggregator": true,
+      "modules": ["constants", "date", "date/mini", "tzName", "tzOffset", "tzScan", "tz"]
+    }
+  }
+}
